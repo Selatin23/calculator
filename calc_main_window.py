@@ -1,5 +1,5 @@
-from PyQt5.QtWidgets import QMainWindow
-from calc_view import Calculator
+from PyQt6.QtWidgets import QMainWindow
+from calc_view import SimpleCalcView
 
 class CalcMainWindow(QMainWindow): # Унаследование от QMainWindow
     calc_view = None

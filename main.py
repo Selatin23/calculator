@@ -1,5 +1,5 @@
 import sys
-from PyQt5.QtWidgets import QApplication
+from PyQt6.QtWidgets import QApplication
 from calc_main_window import CalcMainWindow
 from calc_view import *
 from calc_main_window import *
