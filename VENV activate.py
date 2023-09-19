@@ -1,6 +1,6 @@
 import os
 from fast_html import *
-from PyQt5.QtWidgets import *
+from PyQt6.QtWidgets import *
 
 def set_qt_plugin_path():
     # qpa_path = QLibraryInfo.location(QLibraryInfo.PluginsPath)

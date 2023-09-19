@@ -1,9 +1,10 @@
-from PyQt5.QtWidgets import *
+from PyQt6.QtWidgets import *
 import os
 import sys
+from calc_main_window import *
 
 if __name__ == '__main__':
-    os.environ['QT_QPA_PLATFORM_PLUGIN_PATH'] = "venv/Lib/site-packages/PyQt5/Qt5/plugins/platforms"
+    os.environ['QT_QPA_PLATFORM_PLUGIN_PATH'] = "venv/Lib/site-packages/PyQt6/Qt6/plugins/platforms"
 
 
 class SimpleCalcView(QWidget):
@@ -43,7 +44,7 @@ def calculator_activate():
     app = QApplication([])
     calculator = SimpleCalcView()
     calculator.show()
-    app.exec_()
+    app.exec()
 
 calculator_activate()
 
